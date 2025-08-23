@@ -26,25 +26,23 @@ I come from a Python & C++ background (basic syntax, problem solving), and this 
 - **Deployment**: Docker, systemd / Kubernetes (optional)
 
 ---
-
 ## 🗂 Repo Structure
-
 go-roadmap/
 ├── month-1/
-│ ├── week-1/ # Basics, syntax, setup
-│ ├── week-2/ # Structs, interfaces, errors
-│ ├── week-3/ # Testing, generics
-│ └── week-4/ # Mini projects
+│   ├── week-1/ # Basics, syntax, setup
+│   ├── week-2/ # Structs, interfaces, errors
+│   ├── week-3/ # Testing, generics
+│   └── week-4/ # Mini projects
 ├── month-2/
-│ ├── week-5/ # Modules, std lib
-│ ├── week-6/ # Concurrency (goroutines, channels)
-│ ├── week-7/ # Sync, context, worker pools
-│ └── week-8/ # Concurrency project
+│   ├── week-5/ # Modules, std lib
+│   ├── week-6/ # Concurrency (goroutines, channels)
+│   ├── week-7/ # Sync, context, worker pools
+│   └── week-8/ # Concurrency project
 ├── month-3/
-│ ├── week-9/ # Web & CLI basics
-│ ├── week-10/ # REST APIs, testing
-│ ├── week-11/ # Capstone build
-│ └── week-12/ # Deployment & polish
+│   ├── week-9/ # Web & CLI basics
+│   ├── week-10/ # REST APIs, testing
+│   ├── week-11/ # Capstone build
+│   └── week-12/ # Deployment & polish
 ├── notes/ # Daily/weekly notes & learnings
 ├── projects/ # Independent larger projects
 └── README.md
