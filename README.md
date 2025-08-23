@@ -47,11 +47,6 @@ go-roadmap/
 ├── notes/ # Daily/weekly notes & learnings
 ├── projects/ # Independent larger projects
 └── README.md
-
-yaml
-Copy
-Edit
-
 ---
 
 ## 📅 Timeline
