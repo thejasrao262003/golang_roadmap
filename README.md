@@ -27,6 +27,7 @@ I come from a Python & C++ background (basic syntax, problem solving), and this 
 
 ---
 ## 🗂 Repo Structure
+```
 go-roadmap/
 ├── month-1/
 │   ├── week-1/ # Basics, syntax, setup
@@ -46,6 +47,7 @@ go-roadmap/
 ├── notes/ # Daily/weekly notes & learnings
 ├── projects/ # Independent larger projects
 └── README.md
+```
 ---
 
 ## 📅 Timeline
