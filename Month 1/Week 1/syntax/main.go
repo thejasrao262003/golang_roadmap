@@ -34,8 +34,10 @@ func main(){
 	// fmt.Println("Running Slices() function: ")
 	// Slices()
 	// TicTacToe()
+	// fmt.Println("------------------------------------")
+	// fmt.Println("Running Maps() function: ")
+	// Maps()
 	fmt.Println("------------------------------------")
-	fmt.Println("Running Maps() function: ")
-	Maps()
-
+	fmt.Println("Running Functions() function: ")
+	Functions()
 }
