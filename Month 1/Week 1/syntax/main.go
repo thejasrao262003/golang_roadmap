@@ -40,7 +40,10 @@ func main(){
 	// fmt.Println("------------------------------------")
 	// fmt.Println("Running Functions() function: ")
 	// Functions()
+	// fmt.Println("------------------------------------")
+	// fmt.Println("Running MultipleReturnValues() function: ")
+	// MultipleReturnValues()
 	fmt.Println("------------------------------------")
-	fmt.Println("Running MultipleReturnValues() function: ")
-	MultipleReturnValues()
+	fmt.Println("Running Variadic() function: ")
+	Variadic()
 }
