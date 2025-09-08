@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"slices"
+)
 
 func Slices(){
 	var s []string
@@ -11,7 +14,41 @@ func Slices(){
 	s[0] = "a"
 	s[1] = "b"
 	s[2] = "c"
-	fmt.Println(s)
+	fmt.Println("set:", s)
+	fmt.Println("get:", s[2])
 
-	
+	s = append(s, "d")
+	s = append(s, "e")
+
+	fmt.Println("apd:", s)
+
+	c := make([]string, len(s))
+	copy(c, s)
+	fmt.Println("cpy:", c)
+
+	l := s[2:5]
+	fmt.Println(l)
+
+	l = s[:5]
+	fmt.Println("sl2:", l)
+
+	l = s[2:]
+	fmt.Println("sl3:", l)
+
+	t := []string{"g", "h", "i"}
+	t2 := []string{"g", "h", "i"}
+
+	if slices.Equal(t, t2){
+		fmt.Println("t == t2")
+	}
+
+	twoD := make([][]int, 3)
+    for i := range 3 {
+        innerLen := i + 1
+        twoD[i] = make([]int, innerLen)
+        for j := range innerLen {
+            twoD[i][j] = i + j
+        }
+    }
+    fmt.Println("2d: ", twoD)
 }

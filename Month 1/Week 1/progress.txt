@@ -1,0 +1,12 @@
+Day 1:
+- Learnt about how to create a basic go project
+- Wrote my first hello world program using go documentation
+
+Day 2:
+- Created a go module
+- Used the created module in another function
+- Learnt the basics of error handling
+- Used log module to log the error
+
+Day 3: 
+- 

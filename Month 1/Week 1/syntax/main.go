@@ -1,8 +1,8 @@
 package main
 
-// import (
-// 	"fmt"
-// )
+import (
+	"fmt"
+)
 
 func main(){
 	// fmt.Println("------------------------------------")
@@ -33,6 +33,9 @@ func main(){
 	// fmt.Println("------------------------------------")
 	// fmt.Println("Running Slices() function: ")
 	// Slices()
-	TicTacToe()
+	// TicTacToe()
+	fmt.Println("------------------------------------")
+	fmt.Println("Running Maps() function: ")
+	Maps()
 
 }
