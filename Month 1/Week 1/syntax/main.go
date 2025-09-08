@@ -37,7 +37,10 @@ func main(){
 	// fmt.Println("------------------------------------")
 	// fmt.Println("Running Maps() function: ")
 	// Maps()
+	// fmt.Println("------------------------------------")
+	// fmt.Println("Running Functions() function: ")
+	// Functions()
 	fmt.Println("------------------------------------")
-	fmt.Println("Running Functions() function: ")
-	Functions()
+	fmt.Println("Running MultipleReturnValues() function: ")
+	MultipleReturnValues()
 }
