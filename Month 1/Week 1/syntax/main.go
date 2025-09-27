@@ -46,7 +46,10 @@ func main(){
 	// fmt.Println("------------------------------------")
 	// fmt.Println("Running Variadic() function: ")
 	// Variadic()
+	// fmt.Println("------------------------------------")
+	// fmt.Println("Running Closure() function: ")
+	// Closure()
 	fmt.Println("------------------------------------")
-	fmt.Println("Running Closure() function: ")
-	Closure()
+	fmt.Println("Running Recursion() function: ")
+	Recursion()
 }
