@@ -43,7 +43,10 @@ func main(){
 	// fmt.Println("------------------------------------")
 	// fmt.Println("Running MultipleReturnValues() function: ")
 	// MultipleReturnValues()
+	// fmt.Println("------------------------------------")
+	// fmt.Println("Running Variadic() function: ")
+	// Variadic()
 	fmt.Println("------------------------------------")
-	fmt.Println("Running Variadic() function: ")
-	Variadic()
+	fmt.Println("Running Closure() function: ")
+	Closure()
 }
